@@ -25,21 +25,21 @@ import DataItem from "./dataItem";
         // assigning then to the child.
 
 const Data = () =>{
-    const [companies, setCompanies] =  useState([]) // inital value is data. data has a datatype
-    // companies == []  ==> setCompanies(companies)
+    const [transactions, settransactions] =  useState([]) // inital value is data. data has a datatype
+    // transactions == []  ==> settransactions(transactions)
     useEffect(()=>{
         // fetch from localhost endpoint
-        fetch('http://localhost:3000/companies')
+        fetch('http://localhost:3000/transactions')
         .then(response => response.json())
-        .then(data => setCompanies(data))
-        // companies === data
+        .then(data => settransactions(data))
+        // transactions === data
     },[])
     
     return(
 
         <>
-            {companies.map(company=>(
-                <DataItem key={company.id} name={company.name} net = {company.netWorth} employees = {company.employees}/>
+            {transactions.map(transaction=>(
+                <DataItem key={transaction.id} date={transaction.date} description = {transaction.description} amount = {transaction.amount} category = {transaction.category} />
             ))}
         </>
             

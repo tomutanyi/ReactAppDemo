@@ -1,13 +1,17 @@
 
 
-const DataItem = ({name,employees,net}) =>{
+const DataItem = ({date, description, amount, category}) =>{
     return(
         <div className="dataItem">
-            NAME: {name}
+            DATE: {date}
             <br></br>
-            NETWORTH: {net}
+            DESCRIPTION: {description}
             <br></br>
-            NUMBER OF EMPLOYEES:{employees}
+            AMOUNT: {amount}
+            <br></br>
+            CATEGORY: {category}
+            <br></br>
+            <button>Click me!</button>
         </div>
     )
 }

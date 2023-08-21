@@ -5,13 +5,12 @@ function Navbar(){
     return(
         <div className="container">
             <div>
-                <h1>Hello Mars</h1>
+                <h1>Bank of Flatiron</h1>
             </div>
             
                 <div className="navtest">
-                    <h4>test</h4>
-                    <h4>test</h4>
-                    <h4>test</h4>
+                    <h4>This is the transaction list</h4>
+
                 </div>
           
         </div>

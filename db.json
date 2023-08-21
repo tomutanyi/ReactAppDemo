@@ -1,95 +1,104 @@
 {
-    "companies": [
+    "transactions": [
       {
         "id": 1,
-        "name": "TechCorp Solutions",
-        "netWorth": "$500 million",
-        "employees": 1000
+        "date": "2019-12-01",
+        "description": "Paycheck from Bob's Burgers",
+        "category": "Income",
+        "amount": 1000
       },
       {
         "id": 2,
-        "name": "Innovate Systems",
-        "netWorth": "$300 million",
-        "employees": 800
+        "date": "2019-12-01",
+        "description": "South by Southwest Quinoa Bowl at Fresh & Co",
+        "category": "Food",
+        "amount": -10.55
       },
       {
         "id": 3,
-        "name": "Swift Software",
-        "netWorth": "$200 million",
-        "employees": 600
+        "date": "2019-12-02",
+        "description": "South by Southwest Quinoa Bowl at Fresh & Co",
+        "category": "Food",
+        "amount": -10.55
       },
       {
         "id": 4,
-        "name": "GlobalTech Innovations",
-        "netWorth": "$1 billion",
-        "employees": 1500
+        "date": "2019-12-04",
+        "description": "Sunglasses, Urban Outfitters",
+        "category": "Fashion",
+        "amount": -24.99
       },
       {
         "id": 5,
-        "name": "NexaTech Enterprises",
-        "netWorth": "$750 million",
-        "employees": 1200
+        "date": "2019-12-06",
+        "description": "Venmo, Alice Pays you for Burrito",
+        "category": "Food",
+        "amount": 8.75
       },
       {
         "id": 6,
-        "name": "DataWave Technologies",
-        "netWorth": "$400 million",
-        "employees": 900
+        "date": "2019-12-06",
+        "description": "Chipotle",
+        "category": "Food",
+        "amount": -17.59
       },
       {
         "id": 7,
-        "name": "SecureByte Solutions",
-        "netWorth": "$280 million",
-        "employees": 700
+        "date": "2019-12-07",
+        "description": "Birthday Check from Grandma",
+        "category": "Gift",
+        "amount": 50
       },
       {
         "id": 8,
-        "name": "EcoTech Innovations",
-        "netWorth": "$150 million",
-        "employees": 500
+        "date": "2019-12-09",
+        "description": "Lyft Ride",
+        "category": "Transportation",
+        "amount": -13.25
       },
       {
         "id": 9,
-        "name": "WebGenius Services",
-        "netWorth": "$180 million",
-        "employees": 550
+        "date": "2019-12-11",
+        "description": "Paycheck from Bob's Burgers",
+        "category": "Income",
+        "amount": 1000
       },
       {
         "id": 10,
-        "name": "FusionX Technologies",
-        "netWorth": "$600 million",
-        "employees": 1100
+        "date": "2019-12-16",
+        "description": "Tickets, Flatiron Multiplex Cinemas",
+        "category": "Entertainment",
+        "amount": -24
       },
       {
         "id": 11,
-        "name": "MegaSoft Innovations",
-        "netWorth": "$800 million",
-        "employees": 1300
+        "date": "2019-12-16",
+        "description": "MTA Vending Machine: MetroCard",
+        "category": "Transportation",
+        "amount": -116.39
       },
       {
         "id": 12,
-        "name": "CodeCraft Solutions",
-        "netWorth": "$350 million",
-        "employees": 750
+        "date": "2019-12-17",
+        "description": "Venmo, Pay Roommate for Rent",
+        "category": "Housing",
+        "amount": -975
       },
       {
-        "id": 13,
-        "name": "NexaByte Systems",
-        "netWorth": "$420 million",
-        "employees": 950
+        "date": "2022-07-09",
+        "description": "Office lunch",
+        "category": "Food",
+        "amount": "2000",
+        "id": 13
       },
       {
-        "id": 14,
-        "name": "FutureTech Labs",
-        "netWorth": "$550 million",
-        "employees": 1050
-      },
-      {
-        "id": 15,
-        "name": "SmartStream Technologies changed",
-        "netWorth": "$900 million",
-        "employees": 1400
+        "date": "2022-07-09",
+        "description": "Office lunch Wednesday",
+        "category": "Food",
+        "amount": "3000",
+        "id": 14
       }
     ]
-  }
-  
+   }
+   
+   
