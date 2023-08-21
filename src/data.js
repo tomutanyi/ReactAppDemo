@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import DataItem from "./dataItem";
-let data = [1,2,3,4,5,6]
+// let data = [1,2,3,4,5,6]
 // useState and useeffect
 // import useState
 // const [state,setState] = useState(initalValue)
@@ -29,7 +29,7 @@ const Data = () =>{
     // companies == []  ==> setCompanies(companies)
     useEffect(()=>{
         // fetch from localhost endpoint
-        fetch('http://localhost:8000/companies')
+        fetch('http://localhost:3000/companies')
         .then(response => response.json())
         .then(data => setCompanies(data))
         // companies === data

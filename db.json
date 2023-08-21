@@ -1,0 +1,95 @@
+{
+    "companies": [
+      {
+        "id": 1,
+        "name": "TechCorp Solutions",
+        "netWorth": "$500 million",
+        "employees": 1000
+      },
+      {
+        "id": 2,
+        "name": "Innovate Systems",
+        "netWorth": "$300 million",
+        "employees": 800
+      },
+      {
+        "id": 3,
+        "name": "Swift Software",
+        "netWorth": "$200 million",
+        "employees": 600
+      },
+      {
+        "id": 4,
+        "name": "GlobalTech Innovations",
+        "netWorth": "$1 billion",
+        "employees": 1500
+      },
+      {
+        "id": 5,
+        "name": "NexaTech Enterprises",
+        "netWorth": "$750 million",
+        "employees": 1200
+      },
+      {
+        "id": 6,
+        "name": "DataWave Technologies",
+        "netWorth": "$400 million",
+        "employees": 900
+      },
+      {
+        "id": 7,
+        "name": "SecureByte Solutions",
+        "netWorth": "$280 million",
+        "employees": 700
+      },
+      {
+        "id": 8,
+        "name": "EcoTech Innovations",
+        "netWorth": "$150 million",
+        "employees": 500
+      },
+      {
+        "id": 9,
+        "name": "WebGenius Services",
+        "netWorth": "$180 million",
+        "employees": 550
+      },
+      {
+        "id": 10,
+        "name": "FusionX Technologies",
+        "netWorth": "$600 million",
+        "employees": 1100
+      },
+      {
+        "id": 11,
+        "name": "MegaSoft Innovations",
+        "netWorth": "$800 million",
+        "employees": 1300
+      },
+      {
+        "id": 12,
+        "name": "CodeCraft Solutions",
+        "netWorth": "$350 million",
+        "employees": 750
+      },
+      {
+        "id": 13,
+        "name": "NexaByte Systems",
+        "netWorth": "$420 million",
+        "employees": 950
+      },
+      {
+        "id": 14,
+        "name": "FutureTech Labs",
+        "netWorth": "$550 million",
+        "employees": 1050
+      },
+      {
+        "id": 15,
+        "name": "SmartStream Technologies changed",
+        "netWorth": "$900 million",
+        "employees": 1400
+      }
+    ]
+  }
+  
